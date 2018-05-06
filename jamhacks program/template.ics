@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+PRODID:Kevin Wang, Developer
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20180409T214322Z
+DESCRIPTION:We’re excited you’ll be attending Microsoft Build Live on M
+	ay 7-9. Microsoft Build Live is a free digital experience where you can le
+	arn about AI\, Machine Learning\, Cloud Computing\, App Development\, and
+	a host of other developer topics. Join your peers and hear directly from e
+	ngineers building innovative products and the companies putting them to us
+	e. \n\nDuring the event\, sign into the Microsoft Build Live website with
+	your Microsoft account to: \n\n-     Tune in live to keynotes from Satya N
+	adella\, Scott Guthrie\, and Joe Belfiore\, as well as select sessions\n-
+	    Watch on-demand sessions and access your session content quickly\n-
+	  Interact with developers like you\, as well as Microsoft experts\n-
+	Create and share your custom playlists and favorites\n-     Stay connected
+	 with information and updates\n\nJoin Now -> https://aka.ms/BuildLive2018
+	\n\n \n \n \n
+DTEND;TZID="Pacific Standard Time":20180507T180000
+DTSTAMP:20180329T224120Z
+DTSTART;TZID="Pacific Standard Time":20180507T083000
+LAST-MODIFIED:20180409T214322Z
+LOCATION:https://aka.ms/BuildLive2018
+PRIORITY:5
+RRULE:FREQ=DAILY;COUNT=3
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Microsoft Build Live
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000009094EB7073C7D301000000000000000
+	010000000E2EDBD146C3EB948951CC8F15AFC0B6D
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.9226.2059">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/plain format -->\n\n<P><FONT SIZE=2>We’re excited you’ll be a
+	ttending Microsoft Build Live on May 7-9. Microsoft Build Live is a free d
+	igital experience where you can learn about AI\, Machine Learning\, Cloud
+	Computing\, App Development\, and a host of other developer topics. Join y
+	our peers and hear directly from engineers building innovative products an
+	d the companies putting them to use. </FONT></P>\n\n<P><FONT SIZE=2>During
+	 the event\, sign into the Microsoft Build Live website with your Microsof
+	t account to: </FONT>\n</P>\n\n<P><FONT SIZE=2>-&nbsp\;&nbsp\;&nbsp\;&nbsp
+	\; Tune in live to keynotes from Satya Nadella\, Scott Guthrie\, and Joe B
+	elfiore\, as well as select sessions</FONT>\n\n<BR><FONT SIZE=2>-&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\; Watch on-demand sessions and access your session conte
+	nt quickly</FONT>\n\n<BR><FONT SIZE=2>-&nbsp\;&nbsp\;&nbsp\;&nbsp\; Intera
+	ct with developers like you\, as well as Microsoft experts</FONT>\n\n<BR><
+	FONT SIZE=2>-&nbsp\;&nbsp\;&nbsp\;&nbsp\; Create and share your custom pla
+	ylists and favorites</FONT>\n\n<BR><FONT SIZE=2>-&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\; Stay connected with information and updates</FONT>\n</P>\n\n<P><FONT S
+	IZE=2>Join Now -&gt\; <A HREF="https://aka.ms/BuildLive2018">https://aka.m
+	s/BuildLive2018</A> </FONT>\n</P>\n\n<P><FONT SIZE=2>&nbsp\;</FONT>\n\n<BR
+	><FONT SIZE=2>&nbsp\;</FONT>\n\n<BR><FONT SIZE=2>&nbsp\;</FONT>\n</P>\n\n<
+	/BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
